@@ -1,1 +1,10 @@
+This project is to predict the customers that are likely to churn based on the data given, which includes over 3300 entries with parameters of Area Code, Plan Type, Number of calls taken and minutes spoken over the spans of Day, Evening and Nights.
 
+Given, the data, we split the data into training set and the test set in 70/30 ratio, and use the set.seed() function to reproduce the dataset for analysis.
+
+First we check the churn rate, using logistic regression, based on the parameters International Calls and International Plan, and we draw conclusive evidences of churn rate basedf on the p-value.
+
+Then we deduce the Accuracy, Sensitivity, Specificity, and AUC for various modelling algorithms, like Logistic Regression, k-nearest neighbors, Random Forest, Classification and Regression Tree (CART)
+and compare each one against the other.
+
+Then we calculate the churn rate based on the values of support (1%) and confidence (5%). 
