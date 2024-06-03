@@ -1,5 +1,5 @@
 ---
-title: "hw2"
+title: "churn_prediction"
 author: "Sai Pranith Bhagavatula"
 date: "2024-04-20"
 output: html_document
